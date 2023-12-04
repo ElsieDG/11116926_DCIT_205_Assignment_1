@@ -5,7 +5,7 @@ import './form.css';
 const MissingGradeForm = () => {
   return (
     <div className="container mt-5">
-      <h2 className="mb-4">Report Missing Grade</h2>
+      <h2 className="mb-4">Report Missing Grades</h2>
       <form>
         <div className="mb-3">
           <label htmlFor="studentName" className="form-label">Student Name</label>
