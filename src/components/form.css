@@ -1,0 +1,12 @@
+/* src/components/MissingGradeForm.css */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.form-label {
+  font-weight: bold;
+}
