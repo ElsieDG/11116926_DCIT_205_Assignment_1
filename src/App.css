@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+/* src/App.css */
+nav {
+  background-color: #333;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: whitesmoke;
 }
 
-.App-link {
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*NAVBAR STYLES*/
+
+/* src/App.css */
+/* ... your existing styles ... */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px;
+  box-shadow: 1px 4px 5px 2px rgba(11, 11, 11, 0.3);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #61dafb;
+}
+
+.main-body {
+  padding-top: 80px; /* Adjust as needed based on your navbar height */
 }
