@@ -1,0 +1,19 @@
+.home-heading{
+  text-align: center;
+}
+
+.main-body.home p{
+  text-align: center;
+}
+
+.overview{
+  padding-top: 50px;
+}
+
+.login-links{
+  justify-content: center;
+}
+
+.login-links.b a{
+  color: black;
+}
