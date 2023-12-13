@@ -1,0 +1,71 @@
+/* Dashboard.css */
+.accordion {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+.accordion-toggle {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion.open .accordion-content {
+  display: block;
+}
+
+.tab-container {
+  padding-top: 30px;
+  display: flex;
+  columns: 1;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 30px;
+  padding-bottom: 300px;
+}
+
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  
+}
+
+.tab-link {
+  flex: 1 0 40%; /* Flex property to control the width of each item */
+  padding: 10px;
+  max-width: 500px;
+  height: 300px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.tab-link:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .tab-link {
+    flex: 1 0 100%; /* Change to a single column on smaller screens */
+  }
+}
+
+/* Add additional styles as needed for responsiveness and aesthetics */
