@@ -1,0 +1,109 @@
+/*.home-heading{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.main-body.home p{
+  text-align: center;
+}
+
+.overview{
+  padding-top: 50px;
+  padding-bottom: 1000px;
+}
+
+.login-links{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 6px;
+  list-style: none;
+  text-align: center;
+}
+
+.login-links.b a{
+  color: black;
+  text-decoration: none;
+ 
+}
+
+.login-links.b{
+  text-align: center;
+  justify-content: center;
+  padding: 2px 2px;
+}
+
+.login-links.b a:hover{
+  color: blueviolet;
+  transition: all 0.2s ease-in;
+}*/
+
+/* Home.css */
+
+.main-body.home {
+  margin: 0 auto;
+  max-width: 1350px;
+}
+
+.home-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 100px;
+}
+
+.login-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.login-links li {
+  margin: 0 10px;
+}
+
+.login-links a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+}
+
+.login-links a:hover {
+  background-color: #2980b9;
+}
+
+.overview {
+  margin-top: 100px;
+  padding-bottom: 300px;
+}
+
+.banner {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.overview h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.overview p {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+/* Home.css or your component-specific CSS file */
+
+
+/* Exclude the Footer from global margins */
+.footer :not(.footer) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
