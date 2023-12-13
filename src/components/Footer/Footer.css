@@ -1,0 +1,40 @@
+/* Home.css */
+
+/* ... existing styles ... */
+*{
+  margin: 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  left: 0;
+  right: 0;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+}
+
+.column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.column a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+/* Media Query for Small Screens */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 1 0 100%;
+  }
+}
